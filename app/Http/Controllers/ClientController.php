@@ -15,133 +15,48 @@ class ClientController extends Controller
         return view('client.contact-us');
     }
 
-    // About Pages
-    public function aboutInstitute()
+    public function about()
     {
-        return view('client.about.about-institute');
+        return view('client.about');
     }
 
-    public function visionMission()
+    public function finance()
     {
-        return view('client.about.vision-mission');
+        return view('client.finance');
     }
 
-    public function presidentDesk()
+    public function Deled()
     {
-        return view('client.about.president-desk');
+        return view('client.deled');
     }
 
-    public function directorDesk()
+    public function mandatoryDisclosure()
     {
-        return view('client.about.director-desk');
-    }
-    public function secretaryDesk()
-    {
-        return view('client.about.secretary-desk');
+        return view('client.mandatory-disclosure');
     }
 
-    public function principalDesk()
+    public function Facilities()
     {
-        return view('client.about.principal-desk');
+        return view('client.facilities');
     }
 
-    public function approvalsAffiliation()
+    public function biomatric()
     {
-        return view('client.about.approvals-affiliation');
+        return view('client.biomatric');
     }
 
-    public function committee()
+    public function Gallery()
     {
-        return view('client.about.committee');
+        return view('client.gallery');
     }
 
-    public function trustBody()
+    public function Impsite()
     {
-        return view('client.about.trust-body');
+        return view('client.impsite');
     }
 
-    public function organizationalStructure()
+    public function studentDetails()
     {
-        return view('client.about.organizational-structure');
+        return view('client.student-details');
     }
-    // End About Pages
-
-    // Admission Pages
-    public function admissionCell()
-    {
-        return view('client.admission.admission-cell');
-    }
-
-    public function admissionPolicy()
-    {
-        return view('client.admission.admission-policy-process');
-    }
-
-    public function admissionCourse()
-    {
-        return view('client.admission.course-offered');
-    }
-
-    public function admissionDocuments()
-    {
-        return view('client.admission.documents-required');
-    }
-
-    public function admissionEligibility()
-    {
-        return view('client.admission.eligibility-criteria');
-    }
-
-    public function admissionFee()
-    {
-        return view('client.admission.fee-structure');
-    }
-
-    public function admissionQuota()
-    {
-        return view('client.admission.institutional-quota-vacant-seat');
-    }
-
-    public function admissionScholarship()
-    {
-        return view('client.admission.scholarship');
-    }
-    // End Admission Pages
-
-    // Academics Pages
-    public function academicCalendar()
-    {
-        return view('client.academics.academic-calendar');
-    }
-
-    public function rulesRegulations()
-    {
-        return view('client.academics.rules-regulations');
-    }
-
-    public function nep()
-    {
-        return view('client.academics.nep');
-    }
-
-    public function nptelCourses()
-    {
-        return view('client.academics.nptel-courses');
-    }
-
-    public function resultsAcademic()
-    {
-        return view('client.academics.results');
-    }
-
-    public function onlineResults()
-    {
-        return view('client.academics.online-results');
-    }
-
-    public function gateExams()
-    {
-        return view('client.academics.gate-competitive-exams');
-    }
-    // End Academics Pages
 }

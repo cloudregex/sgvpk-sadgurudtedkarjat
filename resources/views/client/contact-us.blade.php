@@ -6,7 +6,7 @@
         <!-- Map Section -->
         <div class="w-full h-96 rounded-lg overflow-hidden shadow">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4967305840457!2d75.756!3d18.547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3b09f4b69a72d%3A0x9a8ed8c21a4d04e4!2sDatta%20Shikshan%20Sanstha!5e0!3m2!1sen!2sin!4v1665567890123"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968193.6604373759!2d73.84743963343394!3d18.57374631837839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc49fa21e709ca7%3A0x8df2f626d8383c59!2sSadguru%20Gram%20Vikas%20Pratishthan&#39;s%20Dynamic%20English%20School!5e0!3m2!1sen!2sin!4v1578292440684!5m2!1sen!2sin"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </div>
@@ -43,59 +43,19 @@
 
                 <p class="flex items-start gap-2">
                     <i class="bi bi-geo-alt-fill text-blue-300 text-xl"></i>
-                    Address: At & Post Nagewadi, Tal & Dist. Pune, Maharashtra – 413102
+                    Address: Karjat :
+                    At.Post. Karjat ,Near Petrol Pump.
+                    Tal-Karjat , Dist-Ahmednagar.
                 </p>
                 <p class="flex items-center gap-2">
                     <i class="bi bi-telephone-fill text-blue-300 text-lg"></i>
-                    02162-250020 / 9892341141
+                    02489 223 875 / 02589 223 775 / +91 9423733427 / +91 9423788326
                 </p>
                 <p class="flex items-center gap-2">
                     <i class="bi bi-envelope-fill text-blue-300 text-lg"></i>
-                    dssan.pune@gmail.com
+                    sadgure@gmail.com
                 </p>
             </div>
-        </div>
-
-        <!-- How to Reach Section -->
-        <div class="bg-white rounded-lg shadow p-6">
-            <h2 class="text-2xl font-semibold text-[#140f64] mb-4">How to Reach Us</h2>
-
-            <div class="divide-y divide-gray-200">
-                <div class="py-3">
-                    <h3 class="font-semibold text-blue-700 flex items-center gap-2">
-                        <i class="bi bi-car-front-fill"></i> By Car
-                    </h3>
-                    <p class="text-gray-700 ml-6">You can easily get regular buses to Bhigwan from major cities. The campus
-                        is 3 km from Bhigwan Bus Stand.</p>
-                </div>
-                <div class="py-3">
-                    <h3 class="font-semibold text-blue-700 flex items-center gap-2">
-                        <i class="bi bi-train-front-fill"></i> By Train
-                    </h3>
-                    <p class="text-gray-700 ml-6">The nearest railway station is Bhigwan, just 5 km away from the institute.
-                    </p>
-                </div>
-                <div class="py-3">
-                    <h3 class="font-semibold text-blue-700 flex items-center gap-2">
-                        <i class="bi bi-airplane-fill"></i> By Plane
-                    </h3>
-                    <p class="text-gray-700 ml-6">The nearest airport is Pune International Airport (110 km from campus).
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact Numbers Section -->
-        <div class="bg-gray-50 rounded-lg shadow p-6">
-            <h2 class="text-2xl font-semibold text-[#140f64] mb-4">Contacts</h2>
-
-            <ul class="space-y-2 text-gray-800">
-                <li><i class="bi bi-person-circle text-[#140f64] mr-2"></i> Diploma: 02162-250020</li>
-                <li><i class="bi bi-person-circle text-[#140f64] mr-2"></i> Engineering: 02162-250030</li>
-                <li><i class="bi bi-person-circle text-[#140f64] mr-2"></i> MBA/MCA: 02162-250040</li>
-                <li><i class="bi bi-person-circle text-[#140f64] mr-2"></i> School: 02162-250050</li>
-                <li><i class="bi bi-person-circle text-[#140f64] mr-2"></i> Pharmacy: 02162-250060</li>
-            </ul>
         </div>
     </div>
 @endsection

@@ -7,17 +7,33 @@
 
             <!-- Slide 1 -->
             <div class="swiper-slide">
-                <img src="./asset/Dattakala-banner.png" alt="Slide 1">
+                <img src="{{ asset('asset/sidebar/1.jpg') }}" alt="Slide 1">
             </div>
 
             <!-- Slide 2 (replace with your next image) -->
             <div class="swiper-slide">
-                <img src="./asset/Dattakala-banner.png" alt="Slide 2">
+                <img src="{{ asset('asset/sidebar/2.jpg') }}" alt="Slide 2">
             </div>
 
             <!-- Slide 3 -->
             <div class="swiper-slide">
-                <img src="./asset/Dattakala-banner.png" alt="Slide 3">
+                <img src="{{ asset('asset/sidebar/3.jpg') }}" alt="Slide 3">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="{{ asset('asset/sidebar/4.jpg') }}" alt="Slide 3">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="{{ asset('asset/sidebar/5.jpg') }}" alt="Slide 3">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="{{ asset('asset/sidebar/6.jpg') }}" alt="Slide 3">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <img src="{{ asset('asset/sidebar/7.jpg') }}" alt="Slide 3">
             </div>
         </div>
 
@@ -28,313 +44,271 @@
         <!-- Pagination dots -->
         <div class="swiper-pagination"></div>
     </div>
-    <!-- about -->
-    <section id="printable-area"
-        class="max-w-6xl mx-auto my-10 bg-white shadow-lg rounded-2xl flex flex-col md:flex-row items-center gap-8 p-8">
-        <!-- Left Image -->
-        <div class="w-full md:w-1/2">
-            <img src="/asset/Dattakala-index.jpeg" alt="Dattakala Institution"
-                class="rounded-xl shadow-md w-full object-cover" />
-        </div>
 
-        <!-- Right Content -->
-        <div class="w-full md:w-1/2">
-            <h2
-                class="text-2xl md:text-3xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-4 uppercase">
-                Dattakala Group of Institution
-            </h2>
-            <p class="text-base md:text-lg leading-relaxed text-justify mb-3">
-                Dattakala Shikshan Sanstha is situated on a picturesque hilltop with a
-                panoramic view of the Sahyadri Ranges. The students have a
-                pollution-free environment where they can breathe fresh air & play on
-                spacious playfields. The entire enchanting atmosphere is conducive to
-                the overall development of the student.
-            </p>
-            <p class="text-base md:text-lg leading-relaxed text-justify">
-                To achieve this, Dattakala Shikshan Sanstha ensures the highest quality
-                of faculty who are not only highly qualified and trained but also work
-                with a missionary zeal of shaping the students’ personality.
-            </p>
-        </div>
-    </section>
+    <section class="bg-gradient-to-r from-blue-50 to-white py-12 px-6 md:px-20 rounded-xl shadow-lg mt-10">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
 
-    <!-- Main Section -->
-    <section class="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
-
-        <!-- Campus Tour -->
-        <div>
-            <h2
-                class="text-xl md:text-2xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-4 uppercase">
-                Dattakala Campus Tour
-            </h2>
-            <div class="aspect-w-16 aspect-h-9">
-                <iframe class="rounded-lg shadow-md w-full h-64 md:h-72" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                    title="Dattakala Shikshan Sanstha" frameborder="0" allowfullscreen></iframe>
+            <!-- Principal Image -->
+            <div class="relative group overflow-hidden rounded-2xl shadow-xl">
+                <img src="{{ asset('asset/sidebar/principal.jpg') }}" alt="Principal"
+                    class="rounded-2xl transform group-hover:scale-105 transition duration-700 ease-in-out">
+                <div
+                    class="absolute inset-0 bg-black/40 flex flex-col justify-end text-white p-6 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <h3 class="text-lg font-semibold">Mrs. Varsha Dhayare</h3>
+                    <p class="text-sm italic">Principal</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Approved & Affiliated -->
-        <div>
-            <h2
-                class="text-xl md:text-2xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-4 uppercase">
-                Approved & Affiliated By
-            </h2>
-            <div class="grid grid-cols-2 gap-4">
-                <img src="./asset/aicte-logo.png" alt="NAAC" class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-                <img src="./asset/sppu-logo.png" alt="MSBTE" class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-                <img src="./asset/mrtsm-mumbai-logo.png" alt="SPPU"
-                    class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-                <img src="./asset/naac-logo.png" alt="AICTE" class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-                <img src="./asset/sppu-logo.png" alt="MSBTE" class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-                <img src="./asset/mrtsm-mumbai-logo.png" alt="SPPU"
-                    class="rounded-lg shadow-md object-contain h-32 mx-auto" />
-
-            </div>
-        </div>
-
-        <!-- Vision and Mission -->
-        <div class="space-y-6">
-            <div>
-                <h2
-                    class="text-xl md:text-2xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-4 uppercase">
-                    Our Vision
+            <!-- Principal Message -->
+            <div class="space-y-5">
+                <h2 class="text-3xl font-bold text-blue-800 flex items-center gap-2">
+                    <i class="bi bi-person-circle text-blue-600 text-3xl"></i>
+                    From the Principal
                 </h2>
-                <p class="text-sm md:text-base leading-relaxed text-justify">
-                    The vision of the institution is to provide pre-eminent educational experiences that are
-                    stimulating,
-                    responsive to the needs of the present century and prepare students for leadership in their
-                    profession
-                    and society. It also aims to address the critical needs of industry and foster economic development.
+                <p class="text-gray-700 leading-relaxed">
+                    <span class="text-blue-800 font-semibold">Sadguru D.Ed. College</span> is a professional institution
+                    committed to excellence in education.
+                    Our goal is to prepare young men and women to become leaders of quality in every walk of life, serving
+                    humanity with justice, truth, and love.
                 </p>
-            </div>
-
-            <div>
-                <h2
-                    class="text-xl md:text-2xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-4 uppercase">
-                    Our Mission
-                </h2>
-                <ul class="list-disc ml-6 text-sm md:text-base space-y-1">
-                    <li>Impart technical education to create able & competent engineers.</li>
-                    <li>Encourage entrepreneurship development.</li>
-                    <li>Ensure all-round personality development.</li>
-                    <li>Provide training & placement in reputed industries.</li>
-                    <li>Promote institute-industry interaction.</li>
-                </ul>
-            </div>
-
-            <div class="pt-2">
+                <p class="text-gray-700 leading-relaxed">
+                    We take pride in nurturing the next generation of teachers with the cherished values of Indian culture,
+                    discipline, and moral strength.
+                </p>
                 <a href="#"
-                    class="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition">
-                    New Education Policy (NEP)
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
+                    class="inline-flex items-center gap-2 px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-md transition duration-300">
+                    Read More <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
         </div>
     </section>
-    <!-- Highlights + Placed Students Section -->
-    <section class="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
 
-        <!-- Highlights -->
-        <div>
-            <h2
-                class="text-2xl md:text-3xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-6 uppercase">
-                Highlights
+    <section class="relative bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20 px-6 md:px-20 overflow-hidden">
+        <!-- Decorative Blurs -->
+        <div class="absolute top-10 left-10 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl -z-10"></div>
+        <div class="absolute bottom-10 right-10 w-64 h-64 bg-pink-200/40 rounded-full blur-3xl -z-10"></div>
+
+        <!-- Title -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold text-blue-900 flex justify-center items-center gap-3">
+                <i class="bi bi-chat-quote-fill text-blue-600 text-4xl"></i>
+                From The Desk
             </h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+                Words of wisdom and inspiration from our Founder and Principal.
+            </p>
+        </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <!-- Desk Cards -->
+        <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+            <!-- Founder -->
+            <div
+                class="relative bg-white/80 backdrop-blur-lg border-2 border-blue-300 rounded-3xl shadow-lg hover:shadow-blue-200/70 transition duration-700 p-10 text-center hover:-translate-y-3">
                 <div
-                    class="bg-gradient-to-br from-blue-500 to-sky-400 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">50+</h3>
-                    <p class="text-sm">Companies Visiting</p>
+                    class="absolute -top-10 left-1/2 -translate-x-1/2 w-28 h-28 rounded-2xl overflow-hidden shadow-lg ring-4 ring-blue-200">
+                    <img src="{{ asset('asset/founder.png') }}" alt="Founder"
+                        class="object-cover w-full h-full hover:scale-110 transition-transform duration-700 ease-in-out">
                 </div>
-                <div
-                    class="bg-gradient-to-br from-indigo-900 to-indigo-700 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">2100+</h3>
-                    <p class="text-sm">Placed Students</p>
+                <div class="mt-20">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-1">Mr. Rajendra Phalke</h3>
+                    <p class="text-sm text-blue-600 italic mb-4">Founder, President</p>
+                    <blockquote class="relative text-gray-700 italic leading-relaxed">
+                        <i class="bi bi-quote text-blue-400 text-3xl absolute -top-2 -left-3 opacity-60"></i>
+                        A good head and a good heart are always a formidable combination. But when you add to that a
+                        literate tongue or pen, then you have something very special.
+                    </blockquote>
                 </div>
+            </div>
+
+            <!-- Principal -->
+            <div
+                class="relative bg-white/80 backdrop-blur-lg border-2 border-blue-300 rounded-3xl shadow-lg hover:shadow-blue-200/70 transition duration-700 p-10 text-center hover:-translate-y-3">
                 <div
-                    class="bg-gradient-to-br from-blue-500 to-cyan-400 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">15 LPA</h3>
-                    <p class="text-sm">Highest Package</p>
+                    class="absolute -top-10 left-1/2 -translate-x-1/2 w-28 h-28 rounded-2xl overflow-hidden shadow-lg ring-4 ring-blue-200">
+                    <img src="{{ asset('asset/principal.png') }}" alt="Principal"
+                        class="object-cover w-full h-full hover:scale-110 transition-transform duration-700 ease-in-out">
                 </div>
-                <div
-                    class="bg-gradient-to-br from-indigo-900 to-purple-800 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">30,000+</h3>
-                    <p class="text-sm">Books in Library</p>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-blue-500 to-sky-400 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">150+</h3>
-                    <p class="text-sm">Students Placed / Year</p>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-indigo-900 to-indigo-700 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">30+</h3>
-                    <p class="text-sm">Laboratories</p>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-blue-500 to-cyan-400 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">90+</h3>
-                    <p class="text-sm">Faculty</p>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-indigo-900 to-purple-700 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">5,000+</h3>
-                    <p class="text-sm">Students</p>
-                </div>
-                <div
-                    class="bg-gradient-to-br from-blue-500 to-sky-400 text-white rounded-xl shadow p-4 text-center hover:scale-105 transition">
-                    <h3 class="text-2xl font-bold">25,000+</h3>
-                    <p class="text-sm">Alumni</p>
+                <div class="mt-20">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-1">Mrs. Varsha Dhayare</h3>
+                    <p class="text-sm text-blue-600 italic mb-4">Principal</p>
+                    <blockquote class="relative text-gray-700 italic leading-relaxed">
+                        <i class="bi bi-quote text-blue-400 text-3xl absolute -top-2 -left-3 opacity-60"></i>
+                        The function of education is to teach one to think intensively and critically.
+                        Intelligence plus character — that is the goal of true education.
+                    </blockquote>
                 </div>
             </div>
         </div>
 
-        <!-- Placed Students -->
-        <div>
-            <h2
-                class="text-2xl md:text-3xl font-bold text-indigo-900 border-b-2 border-dotted border-indigo-900 pb-2 mb-6 uppercase">
-                Placed Students
-            </h2>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <!-- Student 1 -->
-                <div
-                    class="bg-white rounded-xl shadow-md p-4 flex items-center space-x-4 hover:shadow-lg hover:-translate-y-1 transition">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-16 h-16 rounded-full object-cover"
-                        alt="">
-                    <div>
-                        <h3 class="font-bold text-indigo-900">Ranjit Dhanaji Waghmode</h3>
-                        <p class="text-sm text-gray-600">Technogem Consultant</p>
-                        <p class="text-xs text-blue-600 font-semibold">7.2 LPA</p>
-                    </div>
-                </div>
-
-                <!-- Student 2 -->
-                <div
-                    class="bg-white rounded-xl shadow-md p-4 flex items-center space-x-4 hover:shadow-lg hover:-translate-y-1 transition">
-                    <img src="https://randomuser.me/api/portraits/women/47.jpg"
-                        class="w-16 h-16 rounded-full object-cover" alt="">
-                    <div>
-                        <h3 class="font-bold text-indigo-900">Gaikwad Amrapali Dinesh</h3>
-                        <p class="text-sm text-gray-600">Dattakala Group of Institutes</p>
-                        <p class="text-xs text-blue-600 font-semibold">2.4 LPA</p>
-                    </div>
-                </div>
-
-                <!-- Student 3 -->
-                <div
-                    class="bg-white rounded-xl shadow-md p-4 flex items-center space-x-4 hover:shadow-lg hover:-translate-y-1 transition">
-                    <img src="https://randomuser.me/api/portraits/women/68.jpg"
-                        class="w-16 h-16 rounded-full object-cover" alt="">
-                    <div>
-                        <h3 class="font-bold text-indigo-900">Mane Vanita Dnyandeo</h3>
-                        <p class="text-sm text-gray-600">Phadtare Polytechnic Kalamb</p>
-                        <p class="text-xs text-blue-600 font-semibold">2.4 LPA</p>
-                    </div>
-                </div>
-
-                <!-- Student 4 -->
-                <div
-                    class="bg-white rounded-xl shadow-md p-4 flex items-center space-x-4 hover:shadow-lg hover:-translate-y-1 transition">
-                    <img src="https://randomuser.me/api/portraits/men/90.jpg" class="w-16 h-16 rounded-full object-cover"
-                        alt="">
-                    <div>
-                        <h3 class="font-bold text-indigo-900">Ghanwat Sachin Sanjay</h3>
-                        <p class="text-sm text-gray-600">SWM Jal Jeevan Mission</p>
-                        <p class="text-xs text-blue-600 font-semibold">3 LPA</p>
-                    </div>
-                </div>
-            </div>
+        <!-- Bottom Decorative Line -->
+        <div class="mt-20 flex justify-center">
+            <div class="w-32 h-1 bg-gradient-to-r from-blue-600 to-pink-500 rounded-full"></div>
         </div>
-
     </section>
 
-    <div class="w-full max-w-12xl px-4 py-10 bg-sky-800 mx-auto">
-        <h2 class="text-center text-white text-2xl md:text-12xl font-bold uppercase tracking-wider mb-8 inline-block pb-2">
-            Our Students Working
+
+    <section class="bg-gradient-to-b from-white to-blue-50 py-16 px-6 md:px-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-10 border-b-2 border-blue-200 inline-block">
+            <i class="bi bi-images text-blue-600 mr-2"></i> Photo Gallery
         </h2>
 
-        <div class="relative overflow-hidden">
-            <!-- Slides wrapper -->
-            <div id="logoCarousel" class="flex transition-transform duration-700 ease-in-out">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-                <!-- Repeat your logos -->
+            <!-- Image Card 1 -->
+            <div
+                class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1 group">
+                <img src="./asset/gallery/a1.jpg" alt="Library"
+                    class="object-cover w-full h-64 group-hover:scale-110 transition-transform duration-700">
                 <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
+                    class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+                    {{-- <p class="text-white text-sm font-semibold">Library Section</p> --}}
                 </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <div
-                    class="min-w-[50%] sm:min-w-[33.33%] md:min-w-[25%] lg:min-w-[16.66%] flex justify-center items-center px-4">
-                    <img src="./asset/Dattakalalogo.png" class="w-48 h-28 object-contain bg-white p-2 rounded-lg shadow">
-                </div>
-                <!-- Add more logos as needed -->
             </div>
 
-            <!-- Navigation Buttons -->
-            <button id="prevBtn"
-                class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-gray-800 rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-200">
-                &#10094;
-            </button>
-            <button id="nextBtn"
-                class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-gray-800 rounded-full w-8 h-8 flex items-center justify-center shadow hover:bg-gray-200">
-                &#10095;
-            </button>
+            <!-- Image Card 2 -->
+            <div
+                class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 group">
+                <img src="./asset/gallery/a2.jpg" alt="Computer Lab"
+                    class="object-cover w-full h-64 group-hover:scale-110 transition-transform duration-700">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+                    {{-- <p class="text-white text-sm font-semibold">Computer Lab</p> --}}
+                </div>
+            </div>
+
+            <!-- Image Card 3 -->
+            <div
+                class="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:-rotate-1 group">
+                <img src="./asset/gallery/a3.jpg" alt="Staff Group"
+                    class="object-cover w-full h-64 group-hover:scale-110 transition-transform duration-700">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+                    {{-- <p class="text-white text-sm font-semibold">Staff & Events</p> --}}
+                </div>
+            </div>
+
         </div>
 
-
-
-
-        <!-- Dots -->
-        <div class="flex justify-center mt-4 space-x-2">
-            <span class="dot w-3 h-3 bg-white rounded-full opacity-70"></span>
-            <span class="dot w-3 h-3 bg-white rounded-full opacity-30"></span>
-            <span class="dot w-3 h-3 bg-white rounded-full opacity-30"></span>
+        <div class="text-center mt-10">
+            <button
+                class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full shadow-md transition-all duration-300">
+                View More
+            </button>
         </div>
-    </div>
+    </section>
+
+    <section class="relative bg-gradient-to-r from-blue-50 to-white py-20 px-6 md:px-20 overflow-hidden">
+        <!-- Decorative shapes -->
+        <div class="absolute top-10 left-10 w-60 h-60 bg-blue-200/30 rounded-full blur-3xl -z-10"></div>
+        <div class="absolute bottom-10 right-10 w-60 h-60 bg-pink-200/30 rounded-full blur-3xl -z-10"></div>
+
+        <!-- Title -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold text-blue-900 flex justify-center items-center gap-3">
+                <i class="bi bi-building text-blue-600 text-4xl"></i>
+                Our Facilities
+            </h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+                We provide modern infrastructure and a nurturing environment for holistic education.
+            </p>
+        </div>
+
+        <!-- Facility Cards -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
+
+            <!-- Library -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-journal-bookmark text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Library</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    A well-stocked library with reference books, journals, and digital resources for students and faculty.
+                </p>
+            </div>
+
+            <!-- Computer Lab -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-pc-display text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Computer Lab</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Equipped with modern computers and internet connectivity to enhance learning and research.
+                </p>
+            </div>
+
+            <!-- Science Lab -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-lightbulb text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Science Lab</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    A well-equipped science lab for hands-on experiments and practical learning experiences.
+                </p>
+            </div>
+
+            <!-- Playground -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-trophy text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Playground</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Spacious and well-maintained playground for sports, fitness, and recreational activities.
+                </p>
+            </div>
+
+            <!-- Hostel -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-house-door text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Hostel</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Comfortable hostel facilities ensuring a safe and homely atmosphere for students.
+                </p>
+            </div>
+
+            <!-- Seminar Hall -->
+            <div
+                class="bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-blue-300 p-8 text-center shadow-md hover:shadow-blue-200 hover:-translate-y-2 transition duration-500">
+                <div class="flex justify-center mb-4">
+                    <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                        <i class="bi bi-easel text-blue-600 text-3xl"></i>
+                    </div>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Seminar Hall</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    A modern seminar hall with audio-visual equipment for lectures, workshops, and events.
+                </p>
+            </div>
+        </div>
+
+        <!-- Bottom Decorative Line -->
+        <div class="mt-16 flex justify-center">
+            <div class="w-32 h-1 bg-gradient-to-r from-blue-600 to-pink-500 rounded-full"></div>
+        </div>
+    </section>
+
+
+
     @push('Scripts')
         <script>
             const carousel = document.getElementById('logoCarousel');
